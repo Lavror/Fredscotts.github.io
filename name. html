@@ -1,0 +1,76 @@
+<!DOCTYPE >
+<head>
+  <style>
+ 
+  body{
+  background:#ff0f0f0f;
+  margin:2;
+  
+}
+  fieldset,legend{
+    height: 500px;
+    width: 1000;
+  }
+  field,legend,input{
+    height:200;
+    width: 900; 
+    down: 90%;
+    right: 50%;
+  }
+  field,legend,label{
+    height:350;
+    width: 400;
+font-size: 100px;  }
+  h4{
+    font-size: 150px; 
+  }
+  p{
+    font-size: 80px;
+  }
+  </style>
+  <title>first pg</title>
+</head>
+<body>
+  <h4>
+    PLEASE LOGIN
+    OR SIGN UP
+  </h4>
+  <form>
+    <fieldset>
+	
+		<label>First Name</label><br>
+		<input type="text" name="fname"><br>
+		<label>Last Name</label><br>
+		<input type="text" name="lname"><br>
+		<label>Enter Email</label><br>
+		<input type="email" name="email"><br><br>
+	
+	<p><a href="index.html" target="_blank">sign up</a></p>
+		    
+      
+		    <button id='green' onclick='changeColor("green")' ontouchstart='changeColor("green")'></button>
+		    <button id='blue' onclick='changeColor("blue")' ontouchstart='changeColor("blue")'></button>
+		    <button id='orange' onclick='changeColor("orange")' ontouchstart='changeColor("orange")'></button>
+		    
+	    </div>
+    
+    <canvas></canvas>
+
+    <script>
+   
+	    <div id='colors'>
+	        <button id='black' onclick='changeColor("black")' ontouchstart='changeColor("black")'></button>
+		    <button id='red' onclick='changeColor("red")' ontouchstart='changeColor("red")'></button>
+		    <button id='green' onclick='changeColor("green")' ontouchstart='changeColor("green")'></button>
+		    <button id='blue' onclick='changeColor("blue")' ontouchstart='changeColor("blue")'></button>
+		    <button id='orange' onclick='changeColor("orange")' ontouchstart='changeColor("orange")'></button>
+		    <button id='pink' onclick='changeColor("pink")' ontouchstart='changeColor("pink")'></button>
+	    </div>
+	    <canvas id='ca
+	    nvas' width='200' height='300'></canvas>
+	    <div>
+	        <button onclick='clearCanvas()'>Clear</button>
+	    </div>
+
+
+</html>
